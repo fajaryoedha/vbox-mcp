@@ -54,3 +54,7 @@ All coordinates are guest screen pixels with (0, 0) at the top-left of the monit
 .venv/bin/python scripts/call.py vm_info '{"vm":"My VM"}'
 .venv/bin/python scripts/call.py --out shots screenshot '{"vm":"My VM"}'
 ```
+
+## License
+
+MIT, see [LICENSE](LICENSE).
