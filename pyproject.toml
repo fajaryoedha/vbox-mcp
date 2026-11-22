@@ -1,0 +1,16 @@
+[project]
+name = "vbox-mcp"
+version = "0.1.0"
+description = "MCP server that lets AI agents see and control VirtualBox guests (screen, mouse, keyboard, power, guest exec)"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.10,<2", "pillow>=10"]
+
+[project.scripts]
+vbox-mcp = "vbox_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["vbox_mcp"]
